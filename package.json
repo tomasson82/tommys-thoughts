@@ -1,11 +1,13 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "tommys-thoughts",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog for thoughts and ideas of Tommy Reuter based on ",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thomas Reuter <reuter.thomas@gmail.com>",
+  "homepage": "https://github.com/tomasson82/tommys-thoughts#readme",
+  "engines": {"node": "14.x"},
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/tomasson82/tommys-thoughts/issues"
   },
   "dependencies": {
     "gatsby": "^2.21.37",
@@ -38,7 +40,6 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],

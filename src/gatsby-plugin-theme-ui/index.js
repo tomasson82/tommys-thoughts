@@ -17,6 +17,7 @@ const noctisLightColors = {
 }
 
 // styling a Gatsby theme with theme ui
+// https://theme-ui.com/packages/gatsby-plugin
 // https://www.gatsbyjs.org/docs/theme-ui/#using-theme-ui-in-a-gatsby-theme
 
 export default {

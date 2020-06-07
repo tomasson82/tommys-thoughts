@@ -3,7 +3,7 @@ module.exports = {
     title: `Tommy's thoughts`,
     author: {
       name: `Thomas Reuter`,
-      summary: `who lives in Heidelberg and works in Heidelberg or Frankfurt and tries to building and do useful things.`,
+      summary: `who lives in Heidelberg and works in Heidelberg or Frankfurt and tries to build and do useful things.`,
     },
     description: `The idea of writing down some thoughts and thinks I built.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,

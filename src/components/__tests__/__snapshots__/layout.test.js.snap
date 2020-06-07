@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Layout - test jest setup renders correctly 1`] = `
+exports[`Layout - render snapshot and check header and footer renders correctly [snapshot] 1`] = `
 <div
   style={
     Object {

@@ -44,6 +44,15 @@ exports[`Layout - render snapshot and check header and footer renders correctly 
     >
       Gatsby
     </a>
+    ,
+     
+    Deployed with
+     
+    <a
+      href="https://vercel.com/"
+    >
+       Vercel
+    </a>
   </footer>
 </div>
 `;

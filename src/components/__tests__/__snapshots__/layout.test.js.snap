@@ -12,11 +12,11 @@ exports[`Layout - render snapshot and check header and footer renders correctly 
   }
 >
   <header>
-    <h1
+    <h2
       style={
         Object {
-          "fontSize": "3.95285rem",
-          "lineHeight": "4.375rem",
+          "fontSize": "2.5rem",
+          "lineHeight": "3.5rem",
           "marginBottom": "2.625rem",
           "marginTop": 0,
         }
@@ -31,7 +31,7 @@ exports[`Layout - render snapshot and check header and footer renders correctly 
           }
         }
       />
-    </h1>
+    </h2>
   </header>
   <main />
   <footer>

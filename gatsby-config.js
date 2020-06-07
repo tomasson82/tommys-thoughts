@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Tommy's Thoughts`,
+    title: `Tommy's thoughts`,
     author: {
       name: `Thomas Reuter`,
-      summary: `who lives in Heidelberg and works in Heidelberg or Frankfurt and tries to building and do useful things.`,
+      summary: `who lives in Heidelberg and works in Heidelberg or Frankfurt and tries to build and do useful things.`,
     },
     description: `The idea of writing down some thoughts and thinks I built.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -60,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Tommy's thoughts`,
+        short_name: `Tommy's thoughts`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/memoji-avatar.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -76,6 +76,8 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    // plugins installes by myself
+    `gatsby-plugin-theme-ui`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

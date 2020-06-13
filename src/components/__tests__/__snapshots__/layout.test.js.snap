@@ -53,6 +53,15 @@ exports[`Layout - render snapshot and check header and footer renders correctly 
     >
        Vercel
     </a>
+    ,
+     
+    Repository on
+     
+    <a
+      href="https://github.com/tomasson82/tommys-thoughts"
+    >
+       Github
+    </a>
   </footer>
 </div>
 `;

@@ -64,7 +64,10 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>,{` `}
         Deployed with
         {` `}
-        <a href="https://vercel.com/"> Vercel</a>
+        <a href="https://vercel.com/"> Vercel</a>,{` `}
+        Repository on
+        {` `}
+        <a href="https://github.com/tomasson82/tommys-thoughts"> Github</a>
       </footer>
     </div>
   )

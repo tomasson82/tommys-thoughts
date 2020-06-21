@@ -22,7 +22,7 @@ const noctisLightColors = {
 
 export default {
   colors: {
-    text: noctisLightColors.cascade,
+    text: "#222",
     background: "#fff",
     primary: "#639",
     secondary: "#ff6347",

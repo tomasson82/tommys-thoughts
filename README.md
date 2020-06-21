@@ -11,6 +11,8 @@ My [personal blog](https://tommys-thoughts.tomasson82.now.sh/). Build with [Gats
 
 To check the deployed version click this [link](https://tommys-thoughts.tomasson82.now.sh/).
 
+![Testing](https://github.com/tomasson82/tommys-thoughts/workflows/Testing/badge.svg) ![Prettier & Testing](https://github.com/tomasson82/tommys-thoughts/workflows/Prettier%20&%20Testing/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 ## 🚀 Quick start to run locally
 
 1.  **Checkout this repository.**

@@ -14,6 +14,7 @@ const noctisLightColors = {
   santa_fe: "#b3694d", //Object properties, ID selectors in CSS & Type annotations
   dark_goldenrod: "#a88c00", //Attributes, Constants
   yellow_sea: "#f49725", //Variables & Parameters
+  tan: "#d3b692", //Variables & Parameters
 }
 
 // styling a Gatsby theme with theme ui
@@ -26,6 +27,13 @@ export default {
     background: "#fff",
     primary: "#639",
     secondary: "#ff6347",
+    modes: {
+      dark: {
+        text: noctisLightColors.tan,
+        background: "#000",
+        primary: noctisLightColors.azure_radiance,
+      },
+    },
   },
   fonts: {
     body: "system-ui, sans-serif",

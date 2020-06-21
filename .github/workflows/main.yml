@@ -1,6 +1,6 @@
 # This is a basic workflow to run unit tests with Github-Actions
 
-name: Testing
+name: Prettier & Testing
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 on: [pull_request]
@@ -25,5 +25,9 @@ jobs:
         run: npm ci
 
       # Runs the test script
+      - name: Run the prettier:check script - npm run format:check
+        run: npm run format:check
+
+        # Runs the test script
       - name: Run the test script - npm test
         run: npm test

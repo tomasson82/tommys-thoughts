@@ -1,11 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Box, Flex, useColorMode } from "theme-ui"
+import DarkmodeButton from "./DarkmodeButton"
 
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
+  const [colorMode, setColorMode] = useColorMode()
 
   if (location.pathname === rootPath) {
     header = (
@@ -56,7 +59,21 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
+      <Flex>
+        <Box sx={{ flex: "1 1 auto" }}>
+          <header>{header}</header>
+        </Box>
+        <Box pt={3}>
+          <DarkmodeButton
+            onClick={e => {
+              setColorMode(colorMode === "default" ? "dark" : "default")
+            }}
+            colorMode={colorMode}
+          >
+            Toggle {colorMode === "default" ? "Dark" : "Light"}
+          </DarkmodeButton>
+        </Box>
+      </Flex>
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with

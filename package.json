@@ -12,7 +12,7 @@
     "url": "https://github.com/tomasson82/tommys-thoughts/issues"
   },
   "dependencies": {
-    "gatsby": "^2.21.37",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.4.4",
     "gatsby-plugin-feed": "^2.5.1",
     "gatsby-plugin-google-analytics": "^2.3.1",

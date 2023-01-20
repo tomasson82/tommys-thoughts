@@ -6,7 +6,7 @@
   "author": "Thomas Reuter <reuter.thomas@gmail.com>",
   "homepage": "https://github.com/tomasson82/tommys-thoughts#readme",
   "engines": {
-    "node": "12.x"
+    "node": "18.x"
   },
   "bugs": {
     "url": "https://github.com/tomasson82/tommys-thoughts/issues"
